@@ -29,6 +29,7 @@
   font-weight: 400;
   font-size: 20px;
   cursor: pointer;
+  user-select: none; 
 }
 .btn:active {
   background-color: #9a2ce4;
@@ -52,12 +53,14 @@
   color: #ea48ff;
   margin: 10px;
   flex-grow: 1;
+  user-select: none; 
 }
 
 .btn-remove {
   opacity: 0;
   visibility: hidden;
   background-color: #ff5e86;
+  user-select: none; 
 }
 
 .btn-remove--visible {
