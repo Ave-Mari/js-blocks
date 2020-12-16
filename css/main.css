@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #a1ffef;
+  padding: 30px;
+}
+
+.work-space {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  height: 400px;
+  width: 520px;
+  background-color: #f5a0c1;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #00d394;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:active {
+  background-color: #9a2ce4;
+}
+
+.blocks {
+  width: 95%;
+  height: 70%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-elem {
+  width: 55px;
+  text-align: center;
+  border: 2px solid #ea48ff;
+  border-radius: 10px;
+  background-color: #ffeb94;
+  font-size: 20px;
+  color: #ea48ff;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+.btn-remove {
+  opacity: 0;
+  visibility: hidden;
+  background-color: #ff5e86;
+}
+
+.btn-remove--visible {
+  opacity: 1;
+  visibility: visible;
+}
